@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "asmv7ABESW0=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\ChatAgent\\Nike.Chatbot.Application\\Nike.Chatbot.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.6\\microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

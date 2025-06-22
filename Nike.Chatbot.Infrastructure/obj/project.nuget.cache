@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "QiTecIIYQ+k=",
+  "success": false,
+  "projectFilePath": "C:\\Dev\\ChatAgent\\Nike.Chatbot.Infrastructure\\Nike.Chatbot.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.6\\microsoft.extensions.configuration.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.6\\microsoft.extensions.configuration.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.6\\microsoft.extensions.configuration.binder.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.6\\microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.diagnostics\\9.0.6\\microsoft.extensions.diagnostics.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.6\\microsoft.extensions.diagnostics.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.http\\9.0.6\\microsoft.extensions.http.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.logging\\9.0.6\\microsoft.extensions.logging.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.6\\microsoft.extensions.options.configurationextensions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Dev\\Api\\Nike.Store.Domain\\Nike.Store.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Dev\\ChatAgent\\Nike.Chatbot.Infrastructure\\Nike.Chatbot.Infrastructure.csproj",
+      "filePath": "C:\\Dev\\ChatAgent\\Nike.Chatbot.Infrastructure\\Nike.Chatbot.Infrastructure.csproj",
+      "libraryId": "C:\\Dev\\Api\\Nike.Store.Domain\\Nike.Store.Domain.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

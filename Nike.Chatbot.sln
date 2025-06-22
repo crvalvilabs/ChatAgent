@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike.Chatbot.Application", "Nike.Chatbot.Application\Nike.Chatbot.Application.csproj", "{6FDFBDAE-CC00-449D-9D5B-E58BAFDF6B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike.Chatbot.Domain", "Nike.Chatbot.Domain\Nike.Chatbot.Domain.csproj", "{5770CDFC-BE15-4084-8FAB-DD0D1268D705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike.Chatbot.Infrastructure", "Nike.Chatbot.Infrastructure\Nike.Chatbot.Infrastructure.csproj", "{ABC0E315-9BCF-4730-BFEF-1542DBD122F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike.Chatbot.SemanticKernel", "Nike.Chatbot.SemanticKernel\Nike.Chatbot.SemanticKernel.csproj", "{2ADFA6DC-8123-4C5E-B8F2-903271393073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike.Chatbot.UI", "Nike.Chatbot.UI\Nike.Chatbot.UI.csproj", "{DD46CE08-4201-44C2-9489-40A3B84188DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDFBDAE-CC00-449D-9D5B-E58BAFDF6B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDFBDAE-CC00-449D-9D5B-E58BAFDF6B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDFBDAE-CC00-449D-9D5B-E58BAFDF6B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDFBDAE-CC00-449D-9D5B-E58BAFDF6B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5770CDFC-BE15-4084-8FAB-DD0D1268D705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5770CDFC-BE15-4084-8FAB-DD0D1268D705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5770CDFC-BE15-4084-8FAB-DD0D1268D705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5770CDFC-BE15-4084-8FAB-DD0D1268D705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC0E315-9BCF-4730-BFEF-1542DBD122F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC0E315-9BCF-4730-BFEF-1542DBD122F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC0E315-9BCF-4730-BFEF-1542DBD122F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC0E315-9BCF-4730-BFEF-1542DBD122F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADFA6DC-8123-4C5E-B8F2-903271393073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADFA6DC-8123-4C5E-B8F2-903271393073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADFA6DC-8123-4C5E-B8F2-903271393073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADFA6DC-8123-4C5E-B8F2-903271393073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD46CE08-4201-44C2-9489-40A3B84188DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD46CE08-4201-44C2-9489-40A3B84188DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD46CE08-4201-44C2-9489-40A3B84188DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD46CE08-4201-44C2-9489-40A3B84188DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

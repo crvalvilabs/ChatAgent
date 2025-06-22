@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.6" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
+      <PackageReference Include="Microsoft.SemanticKernel.Connectors.Ollama" Version="1.57.0-alpha" />
+      <PackageReference Include="Microsoft.SemanticKernel.Plugins.Core" Version="1.57.0-preview" />
+      <PackageReference Include="Microsoft.SemanticKernel.Plugins.Memory" Version="1.57.0-alpha" />
+      <PackageReference Include="Microsoft.SemanticKernel.PromptTemplates.Handlebars" Version="1.57.0" />
+      <PackageReference Include="Microsoft.SemanticKernel.Yaml" Version="1.57.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nike.Chatbot.Application\Nike.Chatbot.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Prompts\search-by-name-year.yml" />
+      <EmbeddedResource Include="Prompts\search-by-name-year.yml" />
+      <None Remove="Prompts\search-by-name.yml" />
+      <EmbeddedResource Include="Prompts\search-by-name.yml" />
+    </ItemGroup>
+
+</Project>
